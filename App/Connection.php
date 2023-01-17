@@ -10,7 +10,7 @@ class Connection {
 			$conn = new \PDO(
 				"mysql:host=localhost;dbname=twitter;charset=utf8",
 				"root",
-				"00134210" 
+				"root" 
 			);
 
 			return $conn;
